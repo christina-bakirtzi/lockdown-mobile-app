@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:fillViewport="true">
+
+    <RelativeLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"
+        android:background="@color/blue"
+        android:orientation="vertical"
+        android:paddingLeft="16dp"
+        android:paddingTop="40dp"
+        android:paddingRight="16dp"
+        android:paddingBottom="1dp"
+        android:weightSum="100">
+
+        <TextView
+            android:id="@+id/textView0"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="center"
+            android:fontFamily="sans-serif-medium"
+            android:paddingBottom="15dp"
+            android:text="@string/title"
+            android:textColor="#0C327C"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            android:visibility="visible" />
+
+        <LinearLayout
+            android:id="@+id/linear31"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/textView0"
+            android:orientation="horizontal"
+            android:weightSum="10">
+
+            <ImageView
+                android:id="@+id/imageView5"
+                android:layout_width="0dp"
+                android:layout_height="200dp"
+                android:layout_weight="5"
+                android:gravity="center"
+                android:onClick="sendMessage1"
+                android:src="@drawable/a" />
+
+            <ImageView
+                android:id="@+id/imageView6"
+                android:layout_width="0dp"
+                android:layout_height="200dp"
+                android:layout_weight="5"
+                android:gravity="center"
+                android:onClick="sendMessage2"
+                android:src="@drawable/b" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linear1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/linear31"
+            android:orientation="horizontal"
+            android:weightSum="10">
+
+            <TextView
+                android:id="@id/textView5"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="5"
+                android:gravity="center"
+                android:onClick="sendMessage1"
+                android:text="@string/doctor"
+                android:textColor="#0C327C" />
+
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="5"
+                android:gravity="center"
+                android:onClick="sendMessage2"
+                android:text="@string/supermarket"
+                android:textColor="#0C327C" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linear32"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/linear1"
+            android:orientation="horizontal"
+            android:weightSum="10">
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="0dp"
+                android:layout_height="200dp"
+                android:layout_weight="5"
+                android:gravity="center"
+                android:onClick="sendMessage3"
+                android:src="@drawable/c" />
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="0dp"
+                android:layout_height="200dp"
+                android:layout_weight="5"
+                android:gravity="center"
+                android:onClick="sendMessage4"
+                android:src="@drawable/d" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linear2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/linear32"
+            android:orientation="horizontal"
+            android:weightSum="10">
+
+            <TextView
+                android:id="@id/textView2"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="5"
+                android:gravity="center"
+                android:onClick="sendMessage3"
+                android:text="@string/bank"
+                android:textColor="#0C327C" />
+
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="5"
+                android:gravity="center"
+                android:onClick="sendMessage4"
+                android:text="@string/helpelderly"
+                android:textColor="#0C327C" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linear33"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/linear2"
+            android:orientation="horizontal"
+            android:weightSum="10">
+
+            <ImageView
+                android:id="@+id/imageView3"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="5"
+                android:gravity="center"
+                android:onClick="sendMessage5"
+                android:src="@drawable/e" />
+
+            <ImageView
+                android:id="@+id/imageView4"
+                android:layout_width="0dp"
+                android:layout_height="200dp"
+                android:layout_weight="5"
+                android:gravity="center"
+                android:onClick="sendMessage6"
+                android:src="@drawable/f" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linear3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/linear33"
+            android:orientation="horizontal"
+            android:weightSum="10">
+
+            <TextView
+                android:id="@id/textView4"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="5"
+                android:gravity="center"
+                android:onClick="sendMessage5"
+                android:text="@string/divorcedparents"
+                android:textColor="#0C327C" />
+
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="5"
+                android:gravity="center"
+                android:onClick="sendMessage6"
+                android:text="@string/petwalk"
+                android:textColor="#0C327C" />
+        </LinearLayout>
+
+    </RelativeLayout>
+
+</ScrollView>

@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Quarantine</string>
+    <string name="title"><u>Choose your activity:</u></string>
+    <string name="details"><u>Enter your details</u></string>
+    <string name="first_name">First Name</string>
+    <string name="last_name">Last Name</string>
+    <string name="road">Road Name</string>
+    <string name="number">Road Number</string>
+    <string name="region">Region</string>
+    <string name="button">Choose activity</string>
+    <string name="namemissing">Please enter your name</string>
+    <string name="surnamemissing">Please enter your surname</string>
+    <string name="routemissing">Please enter your road</string>
+    <string name="numbermissing">Please enter your address number</string>
+    <string name="regionmissing">Please enter your region</string>
+    <string name="doctor"><u>Doctor/Pharmacy</u></string>
+    <string name="supermarket"><u>Food market</u></string>
+    <string name="bank"><u>Bank</u></string>
+    <string name="divorcedparents"><u>Divorced Parents</u></string>
+    <string name="petwalk"><u>Exercise / Pet walk</u></string>
+    <string name="helpelderly"><u>Provide help to those in need</u></string>
+</resources>

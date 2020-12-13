@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Quarantine</string>
+    <string name="title"><u>Επιλέξτε λόγο μετακίνησης</u></string>
+    <string name="details"><u>Εισάγετε τα στοιχεία σας</u></string>
+    <string name="first_name">Όνομα</string>
+    <string name="last_name">Επώνυμο</string>
+    <string name="road">Οδός</string>
+    <string name="number">Αριθμός</string>
+    <string name="region">Περιοχή</string>
+    <string name="button">Επιλογή Μετακινησης</string>
+    <string name="namemissing">Παρακαλώ εισάγετε Όνομα</string>
+    <string name="surnamemissing">Παρακαλώ εισάγετε Επώνυμο</string>
+    <string name="routemissing">Παρακαλώ εισάγετε διεύθυνση κατοικίας</string>
+    <string name="numbermissing">Παρακαλώ εισάγετε αριθμό διεύθυνσης</string>
+    <string name="regionmissing">Παρακαλώ εισάγετε περιοχή</string>
+    <string name="doctor"><u>Ιατρός/Φαρμακείο</u></string>
+    <string name="supermarket"><u>Αγορά ειδών πρώτης ανάγκης</u></string>
+    <string name="bank"><u>Τράπεζα</u></string>
+    <string name="divorcedparents"><u>Διαζευγμένοι Γονείς</u></string>
+    <string name="petwalk"><u>Σωματική Άσκηση / Βόλτα κατοικιδιου</u></string>
+    <string name="helpelderly"><u>Παροχή βοήθειας σε ευπαθείς ομάδες</u></string>
+</resources>
